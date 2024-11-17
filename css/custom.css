@@ -5,3 +5,128 @@ p {
 .btn {
 	font-size: 14px;
 }
+
+.testimonial--meta {
+    margin: 0 0 40px 0;
+}
+
+.testimonials-5 .testimonial--content p {
+	font-size: 18px;
+	margin-bottom: 24px;
+}
+
+.contact {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.contact .contact-widget {
+	padding: 45px 0;
+}
+
+.contact-widget .contact--widget-title h5 {
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+
+.contact .form-inline .form-control {
+	width: 370px;
+	max-width: 100%;
+	margin-right: 11px;
+	margin-bottom: 0;
+	border: 1px solid #e0e0e0;
+}
+
+.contact .contact-bar {
+	padding: 30px 0;
+	border-top: 1px solid #eeeeee;
+}
+
+.widget--copyright {
+	color: #999999;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	text-transform: capitalize;
+}
+
+.contact .widget--social a {
+	font-size: 14px;
+	color: #999999;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+.contact .widget--social a:hover {
+	color: #f5af00;
+}
+
+.contact .widget--social a:last-of-type {
+	margin-right: 0;
+}
+
+/* contact #5 */
+.contact-5 .contact-widget {
+	padding: 100px 0 96px;
+}
+
+.contact-5 .widget--info-box i {
+	font-size: 55px;
+	color: #ffffff;
+	line-height: 1;
+	margin-bottom: 30px;
+	display: block;
+}
+
+.contact-5 .widget--info-box h4 {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 16px;
+}
+
+.contact-5 .widget--info-box p {
+	margin-bottom: 0;
+}
+
+.contact-5 .contact-bar {
+	border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* contact #8 */
+.contact-8 .widget--info-box i {
+	color: #f5af00;
+}
+
+.contact-8 .widget--info-box h4 {
+	color: #333333;
+}
+
+.contact-8 .contact-bar {
+	border-top: 1px solid #e5e5e5;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.contact .contact--logo,
+ .contact .widget--copyright {
+	margin-bottom: 20px;
+}
+
+.contact .form-inline .form-control {
+	margin: 0 auto 20px;
+}
+
+.contact-5 .contact-widget {
+	padding: 60px 0;
+}
+
+.contact-5 .widget--info-box {
+	margin-bottom: 30px;
+}
+}
